@@ -2,3 +2,4 @@
 whisperbot
 apikey.txt
 *.sqlite
+.DS_Store

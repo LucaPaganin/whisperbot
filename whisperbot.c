@@ -22,16 +22,16 @@
 
 /* Configuration. */
 #define MAX_QUEUE 10
-#define MAX_SECONDS 300
+#define MAX_SECONDS 900
 #define MSG_LIMIT 4000
 #define TIMEOUT 600
-#define WHISPER_PATH "/Users/antirez/hack/ai/whisper.cpp/build/bin/whisper-cli"
+#define WHISPER_PATH "/app/build/bin/whisper-cli"
 #define SHORT_AUDIO_THRESHOLD 1.5  /* Seconds. Below this, use DEFAULT_LANG. */
 #define DEFAULT_LANG "it"          /* Language for short audio. */
 
 /* Model selection based on queue length. */
-#define MODEL_BASE "/Users/antirez/hack/ai/whisper.cpp/models/ggml-base.bin"
-#define MODEL_MEDIUM "/Users/antirez/hack/ai/whisper.cpp/models/ggml-medium.bin"
+#define MODEL_BASE "/app/models/ggml-base.bin"
+#define MODEL_MEDIUM "/app/models/ggml-medium.bin"
 #define QUEUE_THRESHOLD_BASE 3  /* Use base model when queue >= this */
 #define EDIT_INTERVAL_MS 500    /* Min ms between message edits. */
 
